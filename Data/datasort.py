@@ -23,7 +23,7 @@ print(f"Data sorted and saved to '{Machinefail}' and '{Normal}'.")
 # Sample 1200 records from the Normal operation data
 #Normal_df = pd.read_csv(Normal)
 
-sampledNormal_df =success_df.sample(n=700, random_state=42)
+sampledNormal_df =success_df.sample(n=500, random_state=42)
 
 #Save the sampled data to a CSV file
 
